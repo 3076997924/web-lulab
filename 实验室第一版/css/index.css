@@ -1,0 +1,507 @@
+/* wrapper section */
+.wrapper {
+    position: relative;
+    width: 100%;
+    height: 440px;
+    border-top: 3px solid #60a4e0;
+}
+.slidebox{
+    display: block;
+    width: 100%;
+    height: 440px;
+    background: url(../uploads/wrapper1.png) no-repeat -80px -50px;
+    background-size: 1524px 500px;
+}
+.idea{
+    position: absolute;
+    bottom: -42px;
+    left: 50%;
+    transform: translateX(-317px);
+    width: 634px;
+    height: 104px;
+    padding-top: 28px;
+    background-color: #4e4b5e;
+    text-align: center;
+    color: #fff;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px #888888;
+}
+
+/* intention section  */
+.intention {
+    width: 100%;
+    height: 540px;
+    background-color: rgb(229, 231, 236);
+    margin-top: 70px;
+    padding-top: 80px;
+    font-family: 'roboto condensed,PingFang SC,Microsoft YaHei,微软雅黑,STXihei,华文细黑,sans-serif';
+}
+.intention-title h2 {
+    color: #222;
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+}
+.intention-title h3 {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(182, 69, 134);
+    text-align: center;
+}
+.intention-content {
+    margin-top: 45px;
+}
+.intention-content h4 {
+    font-size: 20px;
+    font-weight: 400;
+}
+.intention-content p {
+    margin: 15px auto;
+}
+/* intention section end */
+
+/* team section  */
+.team{
+    margin-top: 40px;
+    padding-top: 46px;
+}
+.construction h2{
+    width: 200px;
+    padding-top: 35px;
+    margin: 0 auto;
+    text-align: center;
+    border-top: 2px solid #4e4b5e;
+    font-family:"Microsoft YaHei Regular";
+    font-size: 30px;
+    font-weight: 400;
+}
+.construction h4 {
+    width: 484px;
+    height: 25px;
+    margin: 12px auto 0;
+    font-size: 20px;
+    color: rgb(182, 69, 134);
+}
+.department {
+    margin-top: 34px;
+    width: 100%;
+    height: 650px;
+    background-color: rgb(43, 48, 56);
+}
+.incubator {
+    height: 290px;
+    padding-top: 40px;
+}
+.incuobator-left {
+    position: relative;
+    float: left;
+    margin-top: 15px;
+    margin-left: 165px;
+    width: 200px;
+    height: 200px;
+    transition: all .3s;
+    /* background-color: rosybrown; */
+}
+.incuobator-left:hover {
+    transform: translateY(-5px);
+}
+.incuobator-left img {
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+}
+.incuobator-left span {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 42px;
+    text-align: center;
+    line-height: 42px;
+    color: #fff;
+    font-size: 18px;
+    background-color: rgba(0, 0, 0, .7);
+}
+.incuobator-right {
+    float: left;
+    margin-left: 30px;
+    width: 500px;
+    height: 240px;
+    padding: 30px;
+    line-height: 1.7;
+    background-color: #fff;
+    border-radius: 8px;
+}
+.development-right img {
+    width: 100%;
+    height: 100%;
+}
+.incuobator-right h4 {
+    font-size: 20px;
+    color: rgb(182, 69, 134);
+    margin-bottom: 15px;
+}
+.development {
+    margin-top: 40px;
+}
+.development-left {
+    float: left;
+    margin-left: 165px;
+    width: 500px;
+    height: 240px;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+.development-left h4 {
+    font-size: 20px;
+    color: rgb(182, 69, 134);
+    margin-bottom: 15px;
+}
+.development-right {
+    position: relative;
+    float: left;
+    margin-top: 15px;
+    margin-left: 30px;
+    width: 200px;
+    height: 200px;
+    transition: all .3s;
+    /* background-color: rosybrown; */
+}
+.development-right:hover {
+    transform: translateY(-5px);
+}
+.development-right img {
+    border-radius: 6px;
+}
+.development-right span {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 42px;
+    text-align: center;
+    line-height: 42px;
+    color: #fff;
+    font-size: 18px;
+    background-color: rgba(0, 0, 0, .7);
+}
+
+
+/* course section  */
+.course {
+    margin-top: 15px;
+    padding-top: 50px;
+}
+.course h2{
+    width: 200px;
+    margin-left: 400px;
+    padding-top: 35px;
+    text-align: center;
+    border-top: 2px solid #4e4b5e;
+    font-family:"Microsoft YaHei Regular";
+    font-size: 30px;
+    font-weight: 400;
+}
+.course-tab {
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    background: rgb(239, 239, 239);
+    padding: 3px 3px 3px 3px;
+    border-radius: 9px;
+}
+.course-item {
+    float: left;
+    width: auto;
+    height: auto;
+    padding: 10px 15px;
+}
+.course-current {
+    background: rgb(233, 84, 43);
+    border-radius: 12px;
+}
+.course-current a {
+    color: #fff;
+}
+.course-item a:hover {
+    font-weight: 700;
+}
+.course-bd{
+    margin-top: 20px;
+    width: 100%;
+    height: 300px;
+    background-color: plum;
+}
+
+
+
+
+
+
+
+
+/* guest section  */
+.guest{
+    margin-top: 15px;
+    padding-top: 50px;
+}
+.guest-hd h2{
+    width: 200px;
+    margin-left: 400px;
+    padding-top: 35px;
+    text-align: center;
+    border-top: 2px solid #4e4b5e;
+    font-family:"Microsoft YaHei Regular";
+    font-size: 30px;
+    font-weight: 400;
+}
+.guest-hd p{
+    margin-left: 230px;
+    margin-top: 10px;
+    width: 562px;
+    height: 74px;
+    font-family: 'STFangsong';
+    text-align: center;
+}
+.guest-bd {
+    height: auto;
+    margin-top: 50px;
+}
+.guest-bd::after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.guest-bd ul li {
+    position: relative;
+    float: left;
+    width: 240px;
+    background-color: #fff;
+    height: 372px;
+    overflow: hidden;
+    border-radius: 8px;
+    margin-right: 13px;
+    margin-bottom: 25px;
+    transition: all .3s;
+}
+.guest-bd ul li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 2px 2px #ccc;
+}
+.guest-bd ul li:nth-child(4n){
+    margin-right: 0;
+}
+.guest-bd ul li p {
+    color: #666;
+    margin-top: 5px;
+    font-size: 14px;
+}
+.bd-hd a img {
+    width: 100%;
+    height: 203px;
+    margin-top: -6px;
+}
+.bd-hd h5{
+    margin: 0 10px;
+}
+.bd-hd p {
+    margin: 0 10px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ccc;
+}
+.bd-wisdom {
+    padding:0 10px;
+}
+.bd-wisdom h6{
+    font-size: 16px;
+    font-weight: 550;
+    margin-top: 10px;
+}
+.bd-wisdom p{
+    height: 40px;
+    overflow: hidden;
+}
+.bd-hd h5 {
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+/* teacher section  */
+.teacher{
+    margin-top: -50px;
+    padding-top: 90px;
+}
+.teacher-hd > h2{
+    width: 200px;
+    margin-left: 400px;
+    padding-top: 35px;
+    text-align: center;
+    border-top: 2px solid #4e4b5e;
+    font-family:"Microsoft YaHei Regular";
+    font-size: 30px;
+    font-weight: 400;
+}
+.teacher-bd {
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+}
+.teacher-bd ol li {
+    float: left;
+    width: 210px;
+    height: auto;
+}
+.teacher-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.teacher-img {
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    margin-left: 10px;
+    transition: all .3s;
+}
+.teacher-img:hover {
+    transform: translateY(5px);
+}
+.teacher-lu-intro {
+    width: 210px;
+    height: 300px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin-top: 40px;
+    text-align: center;
+    padding: 0 10px;
+}
+.teacher-lu-intro h2 {
+    margin-top: 30px;
+}
+.teacher-lu-intro h4 {
+    color: rgb(182, 69, 134);
+}
+.teacher-lu-intro p {
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 1.6;
+}
+.teacher-he-intro h2 {
+    margin-top: 30px;
+}
+.teacher-he-intro h4 {
+    color: rgb(182, 69, 134);
+}
+.teacher-he-intro p {
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 1.6;
+}
+.teacher-qi-intro h2 {
+    margin-top: 30px;
+}
+.teacher-qi-intro h4 {
+    color: rgb(182, 69, 134);
+}
+.teacher-qi-intro p {
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 1.6;
+}
+.teacher-he-intro {
+    width: 210px;
+    height: 270px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin-top: 40px;
+    text-align: center;
+    padding: 0 10px;
+}
+.teacher-qi-intro {
+    width: 210px;
+    height: 270px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin-top: 40px;
+    text-align: center;
+}
+/* teacher section end  */
+
+
+/* share section  */
+.share{
+    padding-top: 50px;
+    margin-bottom: 60px;
+}
+.share-hd h2{
+    width: 200px;
+    margin-left: 400px;
+    padding-top: 35px;
+    text-align: center;
+    border-top: 2px solid #4e4b5e;
+    font-family:"Microsoft YaHei Regular";
+    font-size: 30px;
+    font-weight: 400;
+}
+.share-hd p{
+    margin-left: 45px;
+    margin-top: 10px;
+    height: 40px;
+    font-size: 14px;
+    font-family: 'STFangsong';
+    text-align: center;
+}
+.share-bd {
+    height: auto;
+    margin-top: 50px;
+}
+.share-bd::after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.share-bd ul li {
+    position: relative;
+    float: left;
+    width: 240px;
+    background-color: #fff;
+    height: 310px;
+    overflow: hidden;
+    border-radius: 8px;
+    margin-right: 13px;
+    margin-bottom: 25px;
+    transition: all .3s;
+    border: 1px solid #ccc;
+}
+.share-bd ul li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 2px 2px #ccc;
+}
+.share-bd ul li:nth-child(4n){
+    margin-right: 0;
+}
+.share-bd ul li p {
+    color: #666;
+    margin-top: 5px;
+    font-size: 14px;
+}
+.share-bd-hd a img {
+    width: 100%;
+    height: 203px;
+    margin-top: -6px;
+}
+.share-bd-hd h5{
+    font-size: 18px;
+    margin: 14px 10px;
+}
+.share-bd-hd p {
+    margin: 0 10px;
+    padding-bottom: 15px;
+    font-size: 14px;
+}
