@@ -1,0 +1,238 @@
+@font-face {
+    font-family: 'STXingkai';
+    src: url('../fonts/STXINGKA.TTF');
+}
+.banner {
+    width: 1000px;
+    margin: 0 auto;
+}
+.clear{
+    clear: both;
+}
+.clearfix:after {
+    content: '';
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+/* header section start  */
+.header {
+    height: 60px;
+    margin: 18px auto;
+}
+.logo {
+    float: left;
+    width: 320px;
+    height: 65px;
+}
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+.nav {
+    float: right;
+    height: 60px;
+    line-height: 60px;
+}
+.nav li {
+    float: left;
+    margin-right: 30px;
+}
+.nav li a{
+    padding-bottom: 8px;
+    font-family: 'STXingkai';
+    font-size: 20px;
+}
+.current {
+    color: #80b1e3;
+    border-bottom: 2px solid #80b1e3;
+}
+/* header section end  */
+body {
+    background: rgb(249, 249, 249);
+}
+/* footer section start */
+.footer {
+    width: 100%;
+    height: 405px;
+    background-color: rgb(255, 255, 255);
+    padding-top: 50px;
+}
+.footer-relation {
+    float: left;
+}
+.footer h5 {
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+.footer p {
+    font-size: 12px;
+    margin-top: 10px;
+}
+.footer p span {
+    margin-left: 8px;
+}
+.footer-about {
+    float: left;
+    margin-left: 225px;
+}
+.footer-about p a:hover{
+    color: rgb(233, 84, 43);
+}
+.footer-more {
+    float: right;
+}
+.footer-more h5 {
+    margin-right: 160px;
+}
+.app {
+    float: left;
+    margin-top: 15px;
+}
+.wechat {
+    float: left;
+    margin-top: 15px;
+    margin-left: -10px;
+}
+.QR {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(249, 249, 249);
+    padding: 5px;
+}
+.QR img {
+    width: 100%;
+}
+.app-message {
+    width: 108px;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: -5px;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    background-color: rgb(233, 84, 43);
+    color: #fff;
+    border-radius: 5px;
+}
+.wechat-message {
+    width: 108px;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: -5px;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    background-color: rgb(76, 183, 37);
+    color: #fff;
+    border-radius: 5px;
+}
+.footer-hd {
+    height: 200px;
+}
+.statement {
+    text-align: center;
+    margin-top: 88px;
+}
+.statement p {
+    margin-top: 5px;
+}
+.statement p a{
+    padding: 0 5px;
+}
+.statement p a:hover {
+    color: rgb(233, 84, 43);
+}
+/* footer section end */
+
+/* side nav section start */
+.side-nav {
+    display: none;
+    position: fixed;
+    width: 75px;
+    top: 100px;
+    right: 10px;
+    background-color: rgb(231, 231, 231);
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+.side-nav li {
+    width: 100%;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    font-size: 13px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.side-nav div {
+    width: 100%;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    font-size: 13px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.side-nav li:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(233, 84, 43);;
+}
+.side-nav div:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(233, 84, 43);;
+}
+.side-current{
+    background-color: rgb(255, 255, 255);
+    color: rgb(233, 84, 43);;
+}
+.pack {
+    position: relative;
+    top: 0;
+    right: 0;
+}
+.pack span {
+    position: absolute;
+    top: -2px;
+    right: 4px;
+    width: 16px;
+    height: 16px;
+}
+.pack span img {
+    width: 100%;
+    height: 100%;
+}
+/* .smalllogo{
+    position: absolute;
+    top: -70px;
+    left: 5px;
+    display: block;
+    width: 64px;
+    height: 64px;
+    padding: 5px;
+    background-color: rgb(231, 231, 231);
+    border-radius: 8px;
+}
+.smalllogo img {
+    width: 100%;
+    height: 100%;
+} */
+.packout {
+    display: none;
+    position: fixed;
+    width: 30px;
+    height: 46px;
+    background-color: rgb(231, 231, 231);
+    top: 313px;
+    right: 5px;
+    border-radius: 8px;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+.packout img {
+    width: 20px;
+    height: 20px;
+}
+/* side nav section end */
